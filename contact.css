@@ -1,0 +1,23 @@
+.tcontent {
+    background-color: white(105, 41, 41);
+    display: flex;
+    height: 380px;
+    margin-top: 20px;
+    padding: 9px;
+    position: relative;
+  }
+  
+  .tcontent::after {
+    content: "";
+    background-image: url("23.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+  }
+
+  .formbox input, textarea{
+    padding: 3px;
+    width: 34vw;
+  }

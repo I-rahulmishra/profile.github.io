@@ -1,0 +1,30 @@
+.post-img{
+    height: 200px;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+
+.post-img img{
+    width: 100%;
+}
+
+.blog-post-content{
+    color: red
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-article{
+    flex-direction: column;
+}
+
+.blogspot-meta{
+    background-color:lightgoldenrodyellow;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
